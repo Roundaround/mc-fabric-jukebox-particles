@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "id": "jukeboxparticles",
+  "version": "${version}",
+  "name": "Jukebox Particles",
+  "description": "Add music particles to jukeboxes similar to Bedrock.",
+  "authors": [
+    "Roundaround"
+  ],
+  "contact": {
+    "homepage": "",
+    "sources": ""
+  },
+  "license": "MIT",
+  "icon": "assets/jukeboxparticles/icon.png",
+  "environment": "client",
+  "mixins": [
+    "jukeboxparticles.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.13.3",
+    "minecraft": "1.19.x",
+    "java": ">=17"
+  }
+}
