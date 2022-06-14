@@ -4,7 +4,7 @@
   "package": "me.roundaround.jukeboxparticles.mixin",
   "compatibilityLevel": "JAVA_17",
   "mixins": [
-    "BlockMixin"
+    "JukeboxBlockMixin"
   ],
   "injectors": {
     "defaultRequire": 1
